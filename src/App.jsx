@@ -377,7 +377,6 @@ function App(props) {
 
   return (
     <div className="App">
-      {/* ✏️ Edit the header and change the title to your project name */}
       <Header style={{
         margin: 0,
         padding: 0
@@ -398,7 +397,7 @@ function App(props) {
       <ThemeSwitch />
 
       {/* 👨‍💼 Your account */}
-      <div style={{ position: "relative", textAlign: "center", right: 0, left: 0, top: 15, }}>
+      <div >
         <Account
           address={address}
           localProvider={localProvider}
